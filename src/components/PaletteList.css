@@ -1,0 +1,14 @@
+p.palette-item {
+    margin-bottom:50px;
+    display: inline-block;
+    width: 14em;
+    height: 10em;
+    padding: 1em;
+    margin: 0 1em 1em 0;
+    border: 1em solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: gray;
+
+}

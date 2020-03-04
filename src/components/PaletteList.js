@@ -1,4 +1,5 @@
 import React from 'react'
+import './PaletteList.css'
 
 function PaletteList(props) {
 
@@ -8,7 +9,7 @@ const handleClick = (event) => {
 
     const paletteListItems = props.palettes.map(palette => {
         return (
-                <p>
+                <p className="palette-item">
                 <img  value = { palette.id } 
                 key = {palette.id} 
                 onClick = { handleClick } 
